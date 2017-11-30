@@ -15,9 +15,9 @@ import java.io.FileNotFoundException;
 public class DecisionTree {
     private static boolean useTest = true;
     public static void main(String args[]) throws Exception{
-        Instances dataSet = setDatasource("dataset/training_happy_noise_30%.arff");
-        Instances testDataset = setDatasource("dataset/test_happy_noise_30%.arff");
-        readLabSettings(dataSet, testDataset,"option/J48_Setting.txt", "output/J48_Output_Happy_Noise_30%.txt");
+        Instances dataSet = setDatasource("dataset/training_30%.arff");
+        Instances testDataset = setDatasource("dataset/test_30%.arff");
+        readLabSettings(dataSet, testDataset,"option/J48_Setting.txt", "output/J48_Output_30%.txt");
     }
 
     private static Instances setDatasource (String path) throws Exception {

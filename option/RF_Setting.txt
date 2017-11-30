@@ -1,0 +1,15 @@
+-P,100,-num-slots,0,-K,0,-M,1,-depth,10
+-P,50,-num-slots,0,-K,0,-M,1,-depth,10
+-P,20,-num-slots,0,-K,0,-M,1,-depth,10
+-P,10,-num-slots,0,-K,0,-M,1,-depth,10
+-P,100,-num-slots,0,-K,10,-M,1,-depth,10
+-P,100,-num-slots,0,-K,50,-M,1,-depth,10
+-P,100,-num-slots,0,-K,100,-M,1,-depth,10
+-P,100,-num-slots,0,-K,0,-M,2,-depth,10
+-P,100,-num-slots,0,-K,0,-M,5,-depth,10
+-P,100,-num-slots,0,-K,0,-M,7,-depth,10
+-P,100,-num-slots,0,-K,0,-M,1,-depth,20
+-P,100,-num-slots,0,-K,0,-M,1,-depth,30
+-P,100,-num-slots,0,-K,1,-M,1,-depth,10
+-P,100,-num-slots,0,-K,2,-M,1,-depth,10
+-P,100,-num-slots,0,-K,3,-M,1,-depth,10
