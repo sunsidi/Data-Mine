@@ -1,0 +1,775 @@
+Multilayer Perceptron Setting: -L 0.1 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3757
+Root mean squared error                  0.4302
+Relative absolute error                 97.9173 %
+Root relative squared error             98.2093 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.634     0.822     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.634     0.371     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.634     0.705     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2505               73.6332 %
+Incorrectly Classified Instances       897               26.3668 %
+Kappa statistic                          0.0184
+Mean absolute error                      0.3899
+Root mean squared error                  0.4355
+Relative absolute error                101.6348 %
+Root relative squared error             99.4066 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.983    0.970    0.744      0.983    0.847      0.040    0.633     0.824     0
+                 0.030    0.017    0.382      0.030    0.055      0.040    0.633     0.358     1
+Weighted Avg.    0.736    0.723    0.650      0.736    0.642      0.040    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2479   42 |    a = 0
+  855   26 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.5 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2295               67.4603 %
+Incorrectly Classified Instances      1107               32.5397 %
+Kappa statistic                          0.134 
+Mean absolute error                      0.4108
+Root mean squared error                  0.4466
+Relative absolute error                107.083  %
+Root relative squared error            101.9366 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.792    0.661    0.774      0.792    0.783      0.134    0.627     0.815     0
+                 0.339    0.208    0.363      0.339    0.351      0.134    0.627     0.349     1
+Weighted Avg.    0.675    0.543    0.668      0.675    0.671      0.134    0.627     0.694     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1996  525 |    a = 0
+  582  299 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.8 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2136               62.7866 %
+Incorrectly Classified Instances      1266               37.2134 %
+Kappa statistic                          0.1458
+Mean absolute error                      0.4236
+Root mean squared error                  0.4567
+Relative absolute error                110.4145 %
+Root relative squared error            104.2591 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.676    0.511    0.791      0.676    0.729      0.150    0.628     0.816     0
+                 0.489    0.324    0.346      0.489    0.405      0.150    0.628     0.351     1
+Weighted Avg.    0.628    0.462    0.676      0.628    0.645      0.150    0.628     0.696     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1705  816 |    a = 0
+  450  431 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.1 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3876
+Root mean squared error                  0.4345
+Relative absolute error                101.0248 %
+Root relative squared error             99.1879 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.633     0.824     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.633     0.358     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.633     0.704     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.5 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2320               68.1952 %
+Incorrectly Classified Instances      1082               31.8048 %
+Kappa statistic                          0.1268
+Mean absolute error                      0.4074
+Root mean squared error                  0.4448
+Relative absolute error                106.1815 %
+Root relative squared error            101.5287 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.813    0.692    0.771      0.813    0.791      0.128    0.626     0.818     0
+                 0.308    0.187    0.365      0.308    0.334      0.128    0.626     0.345     1
+Weighted Avg.    0.682    0.562    0.665      0.682    0.673      0.128    0.626     0.696     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2049  472 |    a = 0
+  610  271 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.8 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2185               64.2269 %
+Incorrectly Classified Instances      1217               35.7731 %
+Kappa statistic                          0.151 
+Mean absolute error                      0.4235
+Root mean squared error                  0.4529
+Relative absolute error                110.3847 %
+Root relative squared error            103.3764 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.706    0.540    0.789      0.706    0.745      0.154    0.629     0.814     0
+                 0.460    0.294    0.353      0.460    0.400      0.154    0.629     0.350     1
+Weighted Avg.    0.642    0.476    0.676      0.642    0.656      0.154    0.629     0.694     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1780  741 |    a = 0
+  476  405 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 100 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2503               73.5744 %
+Incorrectly Classified Instances       899               26.4256 %
+Kappa statistic                          0.0617
+Mean absolute error                      0.3937
+Root mean squared error                  0.436 
+Relative absolute error                102.6049 %
+Root relative squared error             99.5206 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.965    0.919    0.750      0.965    0.844      0.094    0.632     0.822     0
+                 0.081    0.035    0.444      0.081    0.136      0.094    0.632     0.355     1
+Weighted Avg.    0.736    0.690    0.671      0.736    0.661      0.094    0.632     0.701     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2432   89 |    a = 0
+  810   71 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 200 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2504               73.6038 %
+Incorrectly Classified Instances       898               26.3962 %
+Kappa statistic                          0.0556
+Mean absolute error                      0.3921
+Root mean squared error                  0.4357
+Relative absolute error                102.1992 %
+Root relative squared error             99.4657 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.968    0.927    0.749      0.968    0.845      0.088    0.633     0.824     0
+                 0.073    0.032    0.441      0.073    0.125      0.088    0.633     0.357     1
+Weighted Avg.    0.736    0.696    0.669      0.736    0.658      0.088    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2440   81 |    a = 0
+  817   64 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 300 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2501               73.5156 %
+Incorrectly Classified Instances       901               26.4844 %
+Kappa statistic                          0.0364
+Mean absolute error                      0.3911
+Root mean squared error                  0.4356
+Relative absolute error                101.9438 %
+Root relative squared error             99.4305 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.974    0.948    0.746      0.974    0.845      0.064    0.634     0.824     0
+                 0.052    0.026    0.411      0.052    0.093      0.064    0.634     0.358     1
+Weighted Avg.    0.735    0.709    0.659      0.735    0.650      0.064    0.634     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2455   66 |    a = 0
+  835   46 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 10 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3913
+Root mean squared error                  0.434 
+Relative absolute error                101.9997 %
+Root relative squared error             99.0643 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.633     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.633     0.351     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.633     0.704     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 20 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3915
+Root mean squared error                  0.4342
+Relative absolute error                102.0552 %
+Root relative squared error             99.1234 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.633     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.633     0.350     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 30 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3905
+Root mean squared error                  0.434 
+Relative absolute error                101.7879 %
+Root relative squared error             99.0754 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.635     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.635     0.353     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.635     0.704     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2505               73.6332 %
+Incorrectly Classified Instances       897               26.3668 %
+Kappa statistic                          0.0184
+Mean absolute error                      0.3899
+Root mean squared error                  0.4355
+Relative absolute error                101.6348 %
+Root relative squared error             99.4066 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.983    0.970    0.744      0.983    0.847      0.040    0.633     0.824     0
+                 0.030    0.017    0.382      0.030    0.055      0.040    0.633     0.358     1
+Weighted Avg.    0.736    0.723    0.650      0.736    0.642      0.040    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2479   42 |    a = 0
+  855   26 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 10 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2505               73.6332 %
+Incorrectly Classified Instances       897               26.3668 %
+Kappa statistic                          0.0184
+Mean absolute error                      0.3899
+Root mean squared error                  0.4355
+Relative absolute error                101.6348 %
+Root relative squared error             99.4066 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.983    0.970    0.744      0.983    0.847      0.040    0.633     0.824     0
+                 0.030    0.017    0.382      0.030    0.055      0.040    0.633     0.358     1
+Weighted Avg.    0.736    0.723    0.650      0.736    0.642      0.040    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2479   42 |    a = 0
+  855   26 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 30 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2505               73.6332 %
+Incorrectly Classified Instances       897               26.3668 %
+Kappa statistic                          0.0184
+Mean absolute error                      0.3899
+Root mean squared error                  0.4355
+Relative absolute error                101.6348 %
+Root relative squared error             99.4066 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.983    0.970    0.744      0.983    0.847      0.040    0.633     0.824     0
+                 0.030    0.017    0.382      0.030    0.055      0.040    0.633     0.358     1
+Weighted Avg.    0.736    0.723    0.650      0.736    0.642      0.040    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2479   42 |    a = 0
+  855   26 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 50 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2505               73.6332 %
+Incorrectly Classified Instances       897               26.3668 %
+Kappa statistic                          0.0184
+Mean absolute error                      0.3899
+Root mean squared error                  0.4355
+Relative absolute error                101.6348 %
+Root relative squared error             99.4066 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.983    0.970    0.744      0.983    0.847      0.040    0.633     0.824     0
+                 0.030    0.017    0.382      0.030    0.055      0.040    0.633     0.358     1
+Weighted Avg.    0.736    0.723    0.650      0.736    0.642      0.040    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2479   42 |    a = 0
+  855   26 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 10 -S 1 -E 10 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3913
+Root mean squared error                  0.434 
+Relative absolute error                101.9997 %
+Root relative squared error             99.0643 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.633     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.633     0.351     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.633     0.704     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 20 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3915
+Root mean squared error                  0.4342
+Relative absolute error                102.0552 %
+Root relative squared error             99.1234 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.633     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.633     0.350     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.633     0.703     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 30 -S 1 -E 30 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3905
+Root mean squared error                  0.434 
+Relative absolute error                101.7879 %
+Root relative squared error             99.0754 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.635     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.635     0.353     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.635     0.704     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 30 -S 1 -E 50 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.3905
+Root mean squared error                  0.434 
+Relative absolute error                101.7879 %
+Root relative squared error             99.0754 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.635     0.827     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.635     0.353     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.635     0.704     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H 3, 2, 1
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.405 
+Root mean squared error                  0.4388
+Relative absolute error                105.5611 %
+Root relative squared error            100.1691 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.624     0.815     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.624     0.344     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.624     0.693     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H 1, 2, 3
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.411 
+Root mean squared error                  0.4407
+Relative absolute error                107.1141 %
+Root relative squared error            100.6047 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.619     0.817     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.619     0.346     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.619     0.695     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H 9, 8, 7
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2497               73.398  %
+Incorrectly Classified Instances       905               26.602  %
+Kappa statistic                          0.1511
+Mean absolute error                      0.3905
+Root mean squared error                  0.4339
+Relative absolute error                101.7907 %
+Root relative squared error             99.0425 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.919    0.796    0.768      0.919    0.837      0.171    0.647     0.832     0
+                 0.204    0.081    0.469      0.204    0.285      0.171    0.647     0.393     1
+Weighted Avg.    0.734    0.611    0.690      0.734    0.694      0.171    0.647     0.718     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2317  204 |    a = 0
+  701  180 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H 5, 6, 7
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2538               74.6032 %
+Incorrectly Classified Instances       864               25.3968 %
+Kappa statistic                          0.1023
+Mean absolute error                      0.3904
+Root mean squared error                  0.4332
+Relative absolute error                101.7442 %
+Root relative squared error             98.8962 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.970    0.894    0.756      0.970    0.850      0.152    0.638     0.822     0
+                 0.106    0.030    0.550      0.106    0.177      0.152    0.638     0.390     1
+Weighted Avg.    0.746    0.671    0.703      0.746    0.676      0.152    0.638     0.710     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2445   76 |    a = 0
+  788   93 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.3 -M 0.2 -N 500 -V 0 -S 1 -E 20 -H 4, 3
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2518               74.0153 %
+Incorrectly Classified Instances       884               25.9847 %
+Kappa statistic                          0.0797
+Mean absolute error                      0.4033
+Root mean squared error                  0.4386
+Relative absolute error                105.1306 %
+Root relative squared error            100.1137 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.967    0.908    0.753      0.967    0.846      0.120    0.626     0.819     0
+                 0.092    0.033    0.491      0.092    0.155      0.120    0.626     0.369     1
+Weighted Avg.    0.740    0.682    0.685      0.740    0.667      0.120    0.626     0.702     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2437   84 |    a = 0
+  800   81 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.8 -M 0.8 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        1577               46.3551 %
+Incorrectly Classified Instances      1825               53.6449 %
+Kappa statistic                          0.0968
+Mean absolute error                      0.4784
+Root mean squared error                  0.529 
+Relative absolute error                124.6925 %
+Root relative squared error            120.7614 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.344    0.194    0.835      0.344    0.487      0.143    0.626     0.811     0
+                 0.806    0.656    0.300      0.806    0.438      0.143    0.626     0.350     1
+Weighted Avg.    0.464    0.314    0.697      0.464    0.474      0.143    0.626     0.692     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+  867 1654 |    a = 0
+  171  710 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.9 -M 0.9 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        1653               48.5891 %
+Incorrectly Classified Instances      1749               51.4109 %
+Kappa statistic                          0.1111
+Mean absolute error                      0.4219
+Root mean squared error                  0.4969
+Relative absolute error                109.9707 %
+Root relative squared error            113.4213 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.381    0.213    0.836      0.381    0.523      0.155    0.607     0.813     0
+                 0.787    0.619    0.307      0.787    0.442      0.155    0.607     0.329     1
+Weighted Avg.    0.486    0.318    0.699      0.486    0.502      0.155    0.607     0.687     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+  960 1561 |    a = 0
+  188  693 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.1 -M 0.9 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2420               71.1346 %
+Incorrectly Classified Instances       982               28.8654 %
+Kappa statistic                          0.1068
+Mean absolute error                      0.3868
+Root mean squared error                  0.4381
+Relative absolute error                100.8313 %
+Root relative squared error             99.9981 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.890    0.800    0.761      0.890    0.820      0.116    0.630     0.823     0
+                 0.200    0.110    0.389      0.200    0.264      0.116    0.630     0.351     1
+Weighted Avg.    0.711    0.621    0.664      0.711    0.676      0.116    0.630     0.701     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2244  277 |    a = 0
+  705  176 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.9 -M 0.1 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2073               60.9347 %
+Incorrectly Classified Instances      1329               39.0653 %
+Kappa statistic                          0.1532
+Mean absolute error                      0.4338
+Root mean squared error                  0.4646
+Relative absolute error                113.0621 %
+Root relative squared error            106.0514 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.628    0.444    0.802      0.628    0.704      0.163    0.623     0.817     0
+                 0.556    0.372    0.343      0.556    0.424      0.163    0.623     0.341     1
+Weighted Avg.    0.609    0.425    0.683      0.609    0.632      0.163    0.623     0.693     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1583  938 |    a = 0
+  391  490 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
+Multilayer Perceptron Setting: -L 0.1 -M 0.1 -N 500 -V 0 -S 1 -E 20 -H a
+Test Sets:
+== Evaluation results ===
+
+Correctly Classified Instances        2521               74.1035 %
+Incorrectly Classified Instances       881               25.8965 %
+Kappa statistic                          0     
+Mean absolute error                      0.374 
+Root mean squared error                  0.4298
+Relative absolute error                 97.4811 %
+Root relative squared error             98.1155 %
+Total Number of Instances             3402     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.741      1.000    0.851      0.000    0.634     0.823     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.634     0.370     1
+Weighted Avg.    0.741    0.741    0.549      0.741    0.631      0.000    0.634     0.706     
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2521    0 |    a = 0
+  881    0 |    b = 1
+--------------------------------------------------------------------------------------------------------------
+
